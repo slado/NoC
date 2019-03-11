@@ -62,5 +62,5 @@ GO
 ```
 
 
-![Don't Kill Bill](https://github.com/slado/NoC/img/KillBill_banner.jpg "Don't Kill Bill")
+![Don't Kill Bill](img/KillBill_banner.jpg "Don't Kill Bill")
 
