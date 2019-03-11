@@ -1,4 +1,7 @@
-# Don't Kill Bill
+
+![Don't Kill Bill](img/KillBill_banner.jpg "Don't Kill Bill")
+
+
 ## Datapac and YOU @ Night of Chances
 
 # Vzorova databaza
@@ -64,7 +67,4 @@ with randowvalues
     OPTION(MAXRECURSION 0)
 GO
 ```
-
-
-![Don't Kill Bill](img/KillBill_banner.jpg "Don't Kill Bill")
 
