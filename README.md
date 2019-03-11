@@ -20,9 +20,9 @@ Uz vydane vouchre su v tabulke Vouchers. Tuto databazu pouzi pri rieseni ulohy.
 # Ako odovzdat riesenie
 Jednoducho. 
 
-* [ ] Do `src` daj zdrojaky
-* [ ] Sprav branch
-* [ ] Pushni na GitHub
+1. Do `src` daj zdrojaky
+2. Sprav branch
+3. Pushni na GitHub
 
 # Ako vznikla vzorova databaza
 Script, ktory
