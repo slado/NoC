@@ -2,7 +2,7 @@
 ## Datapac and YOU @ Night of Chances
 
 # Vzorova databaza
-Vzorovu databazu treba restornut z backupu NoC.bak. Backup je mozne restornut v SQL Server 2016 a vyssom
+Vzorovu databazu si restorni z backupu NoC.bak. Restore pojde v SQL Server 2016 a vyssom
 [restore_db.sql](restore_db.sql)
 
 ```sql
@@ -12,7 +12,10 @@ RESTORE DATABASE [NoC] FROM  DISK = N'C:\Program Files\Microsoft SQL Server\MSSQ
 GO
 ```
 
-Uz vydane vouchre su v tabulke Vouchers. Tuto databazu pouzite pri rieseni ulohy aby ste mali rovnake vstupne udaje.
+Uz vydane vouchre su v tabulke Vouchers. Tuto databazu pouzi pri rieseni ulohy.
+
+# Ako odovzdat riesenie
+Jednoducho. Sprav branch a pushni na GitHub.
 
 # Ako vznikla vzorova databaza
 Script, ktory
