@@ -60,3 +60,7 @@ with randowvalues
     OPTION(MAXRECURSION 0)
 GO
 ```
+
+
+![Don't Kill Bill](https://github.com/slado/NoC/img/KillBill_banner.jpg "Don't Kill Bill")
+
