@@ -1,5 +1,5 @@
 # Don't Kill Bill
-## @ Night of Chances
+## Datapac and YOU @ Night of Chances
 
 # Vzorova databaza
 Vzorovu databazu treba restornut z backupu NoC.bak. Backup je mozne restornut v SQL Server 2016 a vyssom
