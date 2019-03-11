@@ -19,7 +19,7 @@ Script, ktory
 * vytvori databazu
 * vytvori tabulku Vouchers
 * naplni ju demo datami
-[prepare_data.sql](prepare_data.sql]
+[prepare_data.sql](prepare_data.sql)
 
 
 ```sql
@@ -46,7 +46,6 @@ GO
 with randowvalues
 
     as(
-
        select 1 id, CAST(RAND(CHECKSUM(NEWID()))*10000000 as int) randomnumber
         union  all
         select id + 1, CAST(RAND(CHECKSUM(NEWID()))*10000000 as int)  randomnumber
