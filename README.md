@@ -19,6 +19,7 @@ Script, ktory
 * vytvori databazu
 * vytvori tabulku Vouchers
 * naplni ju demo datami
+
 [prepare_data.sql](prepare_data.sql)
 
 
