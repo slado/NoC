@@ -22,7 +22,7 @@ Jednoducho.
 
 1. Do `src` daj zdrojaky
 2. Sprav branch
-3. ushni na GitHub.
+3. Pushni na GitHub
 
 # Ako vznikla vzorova databaza
 Script, ktory
