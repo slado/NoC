@@ -5,12 +5,12 @@
 ## Datapac and YOU @ Night of Chances
 
 # Quick start
-## Git clone
+## 1. Git clone
 ```
 git clone https://github.com/slado/NoC.git
 ```
 
-## Vytvor databazu
+## 2. Vytvor databazu
 Vzorovu databazu si restorni z backupu NoC.bak. Restore pojde v SQL Server 2016 a vyssom
 [restore_db.sql](restore_db.sql)
 
@@ -22,10 +22,10 @@ GO
 ```
 Uz vydane vouchre su v tabulke Vouchers. 
 
-## Code
+## 3. Code
 Kod daj do foldra src
 
-## Odovzdaj riesenie
+## 4. Odovzdaj riesenie
 Jednoducho. Vytvor branch, commit a push.
 
 ```
