@@ -4,7 +4,13 @@
 
 ## Datapac and YOU @ Night of Chances
 
-# Vzorova databaza
+# Quick start
+## Git clone
+```
+git clone https://github.com/slado/NoC.git
+```
+
+## Vytvor databazu
 Vzorovu databazu si restorni z backupu NoC.bak. Restore pojde v SQL Server 2016 a vyssom
 [restore_db.sql](restore_db.sql)
 
@@ -14,15 +20,20 @@ RESTORE DATABASE [NoC] FROM  DISK = N'C:\Program Files\Microsoft SQL Server\MSSQ
 
 GO
 ```
+Uz vydane vouchre su v tabulke Vouchers. 
 
-Uz vydane vouchre su v tabulke Vouchers. Tuto databazu pouzi pri rieseni ulohy.
+## Code
+Kod daj do foldra src
 
-# Ako odovzdat riesenie
-Jednoducho. 
+## Odovzdaj riesenie
+Jednoducho. Vytvor branch, commit a push.
 
-1. Do `src` daj zdrojaky
-2. Sprav branch
-3. Pushni na GitHub
+```
+git checkout -b BranchName
+git add .
+git commit -m "popis commitu"
+git push origin BranchName
+```
 
 # Ako vznikla vzorova databaza
 Script, ktory
