@@ -5,6 +5,9 @@
 ## Datapac and YOU @ Night of Chances
 
 # Quick start
+**Wifi: NOC**
+**Heslo:FIITnoc2019**
+
 ## 1. Git clone
 ```
 git clone https://github.com/slado/NoC.git
