@@ -26,7 +26,7 @@ Uz vydane vouchre su v tabulke Vouchers.
 Kod daj do foldra src
 
 ## 4. Odovzdaj riesenie
-Jednoducho. Vytvor branch, commit a push.
+Jednoducho. Vytvor branch, commit a push. BranchName zvol take, ktore identifikuje teba alebo tvoj team.
 
 ```
 git checkout -b BranchName
