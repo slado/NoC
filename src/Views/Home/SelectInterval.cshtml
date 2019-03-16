@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Vouchers>
+@{
+    ViewData["Title"] = "Select";
+}
+
+<div asp-validation-summary="All"></div>
+
+@foreach (var item in Model)
+{
+    <p>@item.VoucherId</p>
+}
+
+
