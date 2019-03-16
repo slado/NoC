@@ -1,0 +1,48 @@
+﻿@model MenuViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<form asp-action="SelectInterval">
+
+    <h2>Zobrazenie vydanych vouchrov</h2>
+
+
+    <p> @Html.DisplayNameFor(m => m.StartPoint)</p>
+    <label asp-for="StartPoint" />
+    <input asp-for="StartPoint" />
+
+    <p> @Html.DisplayNameFor(m => m.EndPoint)</p>
+    <label asp-for="EndPoint" />
+    <input asp-for="EndPoint" />
+
+    <input type="submit" value="Zobraz">
+</form>
+
+<h2>Vygenerovat nove vouchre</h2>
+
+<form asp-action="NewVoucher">
+
+    <p> @Html.DisplayNameFor(m => m.Count)</p>
+    <label asp-for="Count" />
+    <input asp-for="Count" />
+
+    <input type="submit" value="Vytvor">
+</form>
+
+
+<h2>Zobrazit qr kod vouchra</h2>
+
+<form asp-action="QrCode">
+
+    <p> @Html.DisplayNameFor(m => m.ToQr)</p>
+    <label asp-for="ToQr" />
+    <input asp-for="ToQr" />
+
+    <input type="submit" value="Vytvor">
+</form>
+
+
+
